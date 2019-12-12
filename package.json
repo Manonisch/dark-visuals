@@ -4,11 +4,19 @@
   "description": "An interactive data visualisation and analyses confirmation web app, using datasets from the tv-series \"Dark\"",
   "main": "index.js",
   "dependencies": {
+    "@babel/register": "^7.7.4",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "jest": "^24.9.0",
+    "prettier": "1.19.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "babel src -d lib",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
