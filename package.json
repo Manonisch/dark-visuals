@@ -1,0 +1,23 @@
+{
+  "name": "dark-visuals",
+  "version": "1.0.0",
+  "description": "An interactive data visualisation and analyses confirmation web app, using datasets from the tv-series \"Dark\"",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manonisch/dark-visuals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manonisch/dark-visuals/issues"
+  },
+  "homepage": "https://github.com/Manonisch/dark-visuals#readme"
+}
