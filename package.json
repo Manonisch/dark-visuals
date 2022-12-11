@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@babel/register": "^7.7.4",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
